@@ -1,0 +1,147 @@
+header{   color:#ffffff;
+     padding-top:0px;
+     min-height:0px;
+     border-bottom:#e8491d 3px solid;
+          background:black;
+        text-align: left;
+      }
+
+    
+  body{
+        margin:0px;
+        padding:0px;
+      }
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:25px ;
+}
+ ul{
+  margin:0;
+  padding:0;
+}
+header li{
+  float:left;
+  display:inline;
+  border:1.5px dashed #e8491d;
+  padding: 30px 30px 30px 30px;
+}
+
+header #branding{
+  float:left;
+  padding-top: 1px;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+header .highlight
+{color:#00BFFF;
+  font-weight:bold;
+  font-size: 35px;
+
+  } header .current a{
+  color:#B66666;
+  font-weight:bold;
+}
+#boxes{
+  background-color: black;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZt6E7RtYYtkeAM5nTUtysU4ey9CdcVj8qyzUR5gRK4ccqrdNzQ);
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+.logo{
+        font-family:verdana;
+        margin-top:0px;
+        float:left;
+        margin:0px;
+      }
+.container{
+
+  margin:auto;
+  overflow:hidden;
+  color: #ffffff;
+}
+.scrollmenu {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.scrollmenu :hover,
+.scrollmenu :focus,
+.scrollmenu:active {
+    transform: scale(1.1);
+}
+.one {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.one :hover,
+.one:focus,
+.one:active {
+    transform: scale(1.1);
+}
+#show{
+  background:url('book2.png') no-repeat center;
+  text-align:center;
+padding-top: 3px;
+  color:#ffffff;
+}
+
+#show h1{
+  font-size:55px;
+  margin-bottom:80px;
+}
+
+#show p{
+  font-size:20px;
+}
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+}
+#boxes{
+  margin-top:10px;
+}
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:20px;
+}
+
+#boxes .box img{
+  width:180px;
+}
+
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
